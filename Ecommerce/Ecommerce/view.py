@@ -7,4 +7,5 @@ def home(request):
     context = {
         'products': products,
     }
+    print(context)
     return render(request, 'home.html', context)
